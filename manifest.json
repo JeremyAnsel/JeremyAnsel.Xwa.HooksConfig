@@ -1,0 +1,76 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/jeremyansel-xwa-hooksconfig/JeremyAnsel.Xwa.HooksConfig/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html",
+          "hash": "P2T/dPhpSOgj+BKa2OnbYLXIQTanL2VCVFnq5k8r4Zg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html",
+          "hash": "ATKOQzSS5AGDAT6efyjxHc14RVLzPlp+lNde/3aooX8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.html",
+          "hash": "3jgJU80poPZEmxfa8Ni0MxJksnT7xFfcleEx11DDilg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "DHAYOK+xj9dXUUO2pnHyYOIzRL5EJc/cvlTPHxdB7do="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "pLjDNM4cWMAOIlgaDCau9taoaAIZEb/ZkgAW0Qhuvnw="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

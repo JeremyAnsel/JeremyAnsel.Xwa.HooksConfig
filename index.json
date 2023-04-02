@@ -1,0 +1,27 @@
+{
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "JeremyAnsel.Xwa.HooksConfig",
+    "keywords": "JeremyAnsel.Xwa.HooksConfig This is the documentation for JeremyAnsel.Xwa.HooksConfig."
+  },
+  "api/JeremyAnsel.Xwa.HooksConfig.html": {
+    "href": "api/JeremyAnsel.Xwa.HooksConfig.html",
+    "title": "Namespace JeremyAnsel.Xwa.HooksConfig",
+    "keywords": "Namespace JeremyAnsel.Xwa.HooksConfig Classes XwaIniFile XwaIniSection"
+  },
+  "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html": {
+    "href": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html",
+    "title": "Class XwaIniFile",
+    "keywords": "Class XwaIniFile Inheritance object XwaIniFile Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: JeremyAnsel.Xwa.HooksConfig Assembly: JeremyAnsel.Xwa.HooksConfig.dll Syntax public sealed class XwaIniFile Constructors | Improve this Doc View Source XwaIniFile(string) Declaration public XwaIniFile(string path) Parameters Type Name Description string path Properties | Improve this Doc View Source BasePath Declaration public string BasePath { get; } Property Value Type Description string | Improve this Doc View Source Extension Declaration public string Extension { get; } Property Value Type Description string | Improve this Doc View Source HasLines Declaration public bool HasLines { get; } Property Value Type Description bool | Improve this Doc View Source HasLinesOrSettings Declaration public bool HasLinesOrSettings { get; } Property Value Type Description bool | Improve this Doc View Source HasSettings Declaration public bool HasSettings { get; } Property Value Type Description bool | Improve this Doc View Source HasTxt Declaration public bool HasTxt { get; } Property Value Type Description bool | Improve this Doc View Source Sections Declaration public IDictionary<string, XwaIniSection> Sections { get; } Property Value Type Description IDictionary<string, XwaIniSection> Methods | Improve this Doc View Source ClearSectionLines(string, bool) Declaration public void ClearSectionLines(string iniKey, bool createSection = false) Parameters Type Name Description string iniKey bool createSection | Improve this Doc View Source CreateSectionIfNotExists(string) Declaration public bool CreateSectionIfNotExists(string section) Parameters Type Name Description string section Returns Type Description bool | Improve this Doc View Source ParseIni() Declaration public void ParseIni() | Improve this Doc View Source ParseSettings(string) Declaration public void ParseSettings(string iniKey = null) Parameters Type Name Description string iniKey | Improve this Doc View Source Read(string, string, bool) Declaration public void Read(string iniKey, string txtKey = null, bool parseSettings = false) Parameters Type Name Description string iniKey string txtKey bool parseSettings | Improve this Doc View Source RetrieveLinesList(string) Declaration public ICollection<string> RetrieveLinesList(string iniKey) Parameters Type Name Description string iniKey Returns Type Description ICollection<string> | Improve this Doc View Source Save(string) Declaration public void Save(string basePath = null) Parameters Type Name Description string basePath"
+  },
+  "api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html": {
+    "href": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html",
+    "title": "Class XwaIniSection",
+    "keywords": "Class XwaIniSection Inheritance object XwaIniSection Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: JeremyAnsel.Xwa.HooksConfig Assembly: JeremyAnsel.Xwa.HooksConfig.dll Syntax public sealed class XwaIniSection Properties | Improve this Doc View Source Lines Declaration public ICollection<string> Lines { get; } Property Value Type Description ICollection<string> | Improve this Doc View Source Settings Declaration public ICollection<string> Settings { get; } Property Value Type Description ICollection<string> | Improve this Doc View Source TxtKey Declaration public string TxtKey { get; set; } Property Value Type Description string Methods | Improve this Doc View Source GetKeyValueInLines(string) Declaration public string GetKeyValueInLines(string key) Parameters Type Name Description string key Returns Type Description string | Improve this Doc View Source GetKeyValueInSettings(string) Declaration public string GetKeyValueInSettings(string key) Parameters Type Name Description string key Returns Type Description string | Improve this Doc View Source SetKeyValueInLines(string, string) Declaration public void SetKeyValueInLines(string key, string value) Parameters Type Name Description string key string value | Improve this Doc View Source SetKeyValueInSettings(string, string) Declaration public void SetKeyValueInSettings(string key, string value) Parameters Type Name Description string key string value"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "JeremyAnsel.Xwa.HooksConfig",
+    "keywords": "JeremyAnsel.Xwa.HooksConfig JeremyAnsel.Xwa.HooksConfig is a .Net library to handle X-Wing Alliance's hooks files."
+  }
+}
