@@ -7,6 +7,156 @@ references:
   commentId: N:JeremyAnsel.Xwa.HooksConfig
   fullName: JeremyAnsel.Xwa.HooksConfig
   nameWithType: JeremyAnsel.Xwa.HooksConfig
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig
+  name: XwaHooksConfig
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html
+  commentId: T:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig
+  nameWithType: XwaHooksConfig
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList{System.String},System.String)
+  name: GetFileKeyValue(IList<string>, string)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValue_System_Collections_Generic_IList_System_String__System_String_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList{System.String},System.String)
+  name.vb: GetFileKeyValue(IList(Of String), String)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList<string>, string)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList(Of String), String)
+  nameWithType: XwaHooksConfig.GetFileKeyValue(IList<string>, string)
+  nameWithType.vb: XwaHooksConfig.GetFileKeyValue(IList(Of String), String)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue*
+  name: GetFileKeyValue
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValue_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue
+  nameWithType: XwaHooksConfig.GetFileKeyValue
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt(System.Collections.Generic.IList{System.String},System.String,System.Int32)
+  name: GetFileKeyValueInt(IList<string>, string, int)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValueInt_System_Collections_Generic_IList_System_String__System_String_System_Int32_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt(System.Collections.Generic.IList{System.String},System.String,System.Int32)
+  name.vb: GetFileKeyValueInt(IList(Of String), String, Integer)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt(System.Collections.Generic.IList<string>, string, int)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt(System.Collections.Generic.IList(Of String), String, Integer)
+  nameWithType: XwaHooksConfig.GetFileKeyValueInt(IList<string>, string, int)
+  nameWithType.vb: XwaHooksConfig.GetFileKeyValueInt(IList(Of String), String, Integer)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt*
+  name: GetFileKeyValueInt
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValueInt_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt
+  nameWithType: XwaHooksConfig.GetFileKeyValueInt
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(System.String,System.String)
+  name: GetFileLines(string, string)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileLines_System_String_System_String_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(System.String,System.String)
+  name.vb: GetFileLines(String, String)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(string, string)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(String, String)
+  nameWithType: XwaHooksConfig.GetFileLines(string, string)
+  nameWithType.vb: XwaHooksConfig.GetFileLines(String, String)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines*
+  name: GetFileLines
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileLines_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines
+  nameWithType: XwaHooksConfig.GetFileLines
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListIntValues(System.Collections.Generic.IList{System.String})
+  name: GetFileListIntValues(IList<string>)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileListIntValues_System_Collections_Generic_IList_System_String__
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListIntValues(System.Collections.Generic.IList{System.String})
+  name.vb: GetFileListIntValues(IList(Of String))
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListIntValues(System.Collections.Generic.IList<string>)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListIntValues(System.Collections.Generic.IList(Of String))
+  nameWithType: XwaHooksConfig.GetFileListIntValues(IList<string>)
+  nameWithType.vb: XwaHooksConfig.GetFileListIntValues(IList(Of String))
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListIntValues*
+  name: GetFileListIntValues
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileListIntValues_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListIntValues
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListIntValues
+  nameWithType: XwaHooksConfig.GetFileListIntValues
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListUnsignedShortValues(System.Collections.Generic.IList{System.String})
+  name: GetFileListUnsignedShortValues(IList<string>)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileListUnsignedShortValues_System_Collections_Generic_IList_System_String__
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListUnsignedShortValues(System.Collections.Generic.IList{System.String})
+  name.vb: GetFileListUnsignedShortValues(IList(Of String))
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListUnsignedShortValues(System.Collections.Generic.IList<string>)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListUnsignedShortValues(System.Collections.Generic.IList(Of String))
+  nameWithType: XwaHooksConfig.GetFileListUnsignedShortValues(IList<string>)
+  nameWithType.vb: XwaHooksConfig.GetFileListUnsignedShortValues(IList(Of String))
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListUnsignedShortValues*
+  name: GetFileListUnsignedShortValues
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileListUnsignedShortValues_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListUnsignedShortValues
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListUnsignedShortValues
+  nameWithType: XwaHooksConfig.GetFileListUnsignedShortValues
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListValues(System.Collections.Generic.IList{System.String})
+  name: GetFileListValues(IList<string>)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileListValues_System_Collections_Generic_IList_System_String__
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListValues(System.Collections.Generic.IList{System.String})
+  name.vb: GetFileListValues(IList(Of String))
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListValues(System.Collections.Generic.IList<string>)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListValues(System.Collections.Generic.IList(Of String))
+  nameWithType: XwaHooksConfig.GetFileListValues(IList<string>)
+  nameWithType.vb: XwaHooksConfig.GetFileListValues(IList(Of String))
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListValues*
+  name: GetFileListValues
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileListValues_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListValues
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileListValues
+  nameWithType: XwaHooksConfig.GetFileListValues
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetStringWithoutExtension(System.String)
+  name: GetStringWithoutExtension(string)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetStringWithoutExtension_System_String_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetStringWithoutExtension(System.String)
+  name.vb: GetStringWithoutExtension(String)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetStringWithoutExtension(string)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetStringWithoutExtension(String)
+  nameWithType: XwaHooksConfig.GetStringWithoutExtension(string)
+  nameWithType.vb: XwaHooksConfig.GetStringWithoutExtension(String)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetStringWithoutExtension*
+  name: GetStringWithoutExtension
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetStringWithoutExtension_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetStringWithoutExtension
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetStringWithoutExtension
+  nameWithType: XwaHooksConfig.GetStringWithoutExtension
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.ToInt32(System.String)
+  name: ToInt32(string)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_ToInt32_System_String_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.ToInt32(System.String)
+  name.vb: ToInt32(String)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.ToInt32(string)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.ToInt32(String)
+  nameWithType: XwaHooksConfig.ToInt32(string)
+  nameWithType.vb: XwaHooksConfig.ToInt32(String)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.ToInt32*
+  name: ToInt32
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_ToInt32_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.ToInt32
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.ToInt32
+  nameWithType: XwaHooksConfig.ToInt32
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.Tokennize(System.String)
+  name: Tokennize(string)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_Tokennize_System_String_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.Tokennize(System.String)
+  name.vb: Tokennize(String)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.Tokennize(string)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.Tokennize(String)
+  nameWithType: XwaHooksConfig.Tokennize(string)
+  nameWithType.vb: XwaHooksConfig.Tokennize(String)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.Tokennize*
+  name: Tokennize
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_Tokennize_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.Tokennize
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.Tokennize
+  nameWithType: XwaHooksConfig.Tokennize
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile
   name: XwaIniFile
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html

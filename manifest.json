@@ -13,11 +13,22 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html",
+          "hash": "youcGcUM5P0IDh6Njxswg6oYXCQ5d6SkJ2aZbLO5Pl0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.yml",
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html",
-          "hash": "P2T/dPhpSOgj+BKa2OnbYLXIQTanL2VCVFnq5k8r4Zg="
+          "hash": "St6x8G6jfbjNnXrPXTIaGCvJ7S4w3df1omjBWXubOXk="
         }
       },
       "version": ""
@@ -28,7 +39,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html",
-          "hash": "ATKOQzSS5AGDAT6efyjxHc14RVLzPlp+lNde/3aooX8="
+          "hash": "FMneAWLu80PkvxUws7nb9ulURcBu0tUuDuCvPPQS0Kw="
         }
       },
       "version": ""
@@ -39,7 +50,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.html",
-          "hash": "3jgJU80poPZEmxfa8Ni0MxJksnT7xFfcleEx11DDilg="
+          "hash": "w1Qmvg+v3xTJqbqzA5/GA9OPkPonnmUWVuvbB+4lGEA="
         }
       },
       "version": ""
@@ -50,7 +61,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "DHAYOK+xj9dXUUO2pnHyYOIzRL5EJc/cvlTPHxdB7do="
+          "hash": "FffmyNMfle2URwa6ysWwRYcsf1PKrHUBhpP7jqcDZ14="
         }
       },
       "version": ""
