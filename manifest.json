@@ -16,8 +16,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html",
-          "hash": "youcGcUM5P0IDh6Njxswg6oYXCQ5d6SkJ2aZbLO5Pl0="
+          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html"
         }
       },
       "version": ""
@@ -27,8 +26,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html",
-          "hash": "St6x8G6jfbjNnXrPXTIaGCvJ7S4w3df1omjBWXubOXk="
+          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html"
         }
       },
       "version": ""
@@ -38,8 +36,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html",
-          "hash": "FMneAWLu80PkvxUws7nb9ulURcBu0tUuDuCvPPQS0Kw="
+          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html"
         }
       },
       "version": ""
@@ -49,8 +46,7 @@
       "source_relative_path": "api/JeremyAnsel.Xwa.HooksConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.html",
-          "hash": "w1Qmvg+v3xTJqbqzA5/GA9OPkPonnmUWVuvbB+4lGEA="
+          "relative_path": "api/JeremyAnsel.Xwa.HooksConfig.html"
         }
       },
       "version": ""
@@ -60,8 +56,7 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "FffmyNMfle2URwa6ysWwRYcsf1PKrHUBhpP7jqcDZ14="
+          "relative_path": "api/index.html"
         }
       },
       "version": ""
@@ -71,8 +66,7 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "pLjDNM4cWMAOIlgaDCau9taoaAIZEb/ZkgAW0Qhuvnw="
+          "relative_path": "index.html"
         }
       },
       "version": ""

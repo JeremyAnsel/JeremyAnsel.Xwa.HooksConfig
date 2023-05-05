@@ -420,6 +420,19 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniSection.GetKeyValueInSettings
   nameWithType: XwaIniSection.GetKeyValueInSettings
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaIniSection.GetSettingKeys
+  name: GetSettingKeys()
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html#JeremyAnsel_Xwa_HooksConfig_XwaIniSection_GetSettingKeys
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniSection.GetSettingKeys
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniSection.GetSettingKeys()
+  nameWithType: XwaIniSection.GetSettingKeys()
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaIniSection.GetSettingKeys*
+  name: GetSettingKeys
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html#JeremyAnsel_Xwa_HooksConfig_XwaIniSection_GetSettingKeys_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaIniSection.GetSettingKeys
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniSection.GetSettingKeys
+  nameWithType: XwaIniSection.GetSettingKeys
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniSection.Lines
   name: Lines
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html#JeremyAnsel_Xwa_HooksConfig_XwaIniSection_Lines
