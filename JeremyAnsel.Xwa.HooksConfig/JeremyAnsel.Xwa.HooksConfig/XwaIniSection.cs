@@ -39,6 +39,33 @@ namespace JeremyAnsel.Xwa.HooksConfig
             }
         }
 
+        public ICollection<string> GetSettingKeys()
+        {
+            var keys = new List<string>();
+
+            foreach (string setting in this.Settings)
+            {
+                int pos = setting.IndexOf('=');
+
+                if (pos == -1)
+                {
+                    continue;
+                }
+
+                string name = setting.Substring(0, pos);
+                name = name.Trim();
+
+                if (name.Length == 0)
+                {
+                    continue;
+                }
+
+                keys.Add(name);
+            }
+
+            return keys;
+        }
+
         private static string GetKeyValue(ICollection<string> lines, string key)
         {
             foreach (string line in lines)
