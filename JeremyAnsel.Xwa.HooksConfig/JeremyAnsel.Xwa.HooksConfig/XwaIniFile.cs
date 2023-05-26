@@ -317,7 +317,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
                 writer.WriteLine(line);
             }
 
-            if (section.Lines.Count == 0 || !string.IsNullOrWhiteSpace(section.Lines.Last()))
+            if (!string.IsNullOrEmpty(section.TxtKey) && (section.Lines.Count == 0 || !string.IsNullOrWhiteSpace(section.Lines.Last())))
             {
                 writer.WriteLine();
             }
