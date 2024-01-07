@@ -7,19 +7,40 @@ namespace JeremyAnsel.Xwa.HooksConfig
         private static readonly Encoding _encoding = Encoding.GetEncoding("iso-8859-1");
 
         public XwaIniFile(string path)
+            : this(path, ".ini", ".txt")
+        {
+        }
+
+        public XwaIniFile(string path, string extension, string txtExtension)
         {
             if (string.IsNullOrEmpty(path))
             {
                 throw new ArgumentNullException(nameof(path));
             }
 
+            if (string.IsNullOrEmpty(extension))
+            {
+                throw new ArgumentNullException(nameof(extension));
+            }
+
+            if (string.IsNullOrEmpty(txtExtension))
+            {
+                throw new ArgumentNullException(nameof(txtExtension));
+            }
+
             if (!Path.HasExtension(path))
             {
-                path = Path.ChangeExtension(path, ".ini");
+                path = Path.ChangeExtension(path, extension);
+            }
+
+            if (txtExtension[0] != '.')
+            {
+                txtExtension = "." + txtExtension;
             }
 
             this.BasePath = Path.ChangeExtension(path, null);
             this.Extension = Path.GetExtension(path);
+            this.TxtExtension = txtExtension;
 
             this.CreateSectionIfNotExists(string.Empty);
         }
@@ -27,6 +48,8 @@ namespace JeremyAnsel.Xwa.HooksConfig
         public string BasePath { get; private set; }
 
         public string Extension { get; private set; }
+
+        public string TxtExtension { get; private set; }
 
         public IDictionary<string, XwaIniSection> Sections { get; } = new SortedDictionary<string, XwaIniSection>();
 
@@ -136,7 +159,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
             if (!string.IsNullOrEmpty(txtKey))
             {
-                string txtPath = this.BasePath + txtKey + ".txt";
+                string txtPath = this.BasePath + txtKey + this.TxtExtension;
 
                 if (File.Exists(txtPath))
                 {
@@ -199,7 +222,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
                     continue;
                 }
 
-                using var writer = new StreamWriter(basePath + txtKey + ".txt", false, _encoding);
+                using var writer = new StreamWriter(basePath + txtKey + this.TxtExtension, false, _encoding);
 
                 WriteSection(writer, section.Value);
             }
@@ -304,7 +327,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
                         continue;
                     }
 
-                    string txtPath = basePath + txtKey + ".txt";
+                    string txtPath = basePath + txtKey + this.TxtExtension;
                     File.Delete(txtPath);
                 }
             }
