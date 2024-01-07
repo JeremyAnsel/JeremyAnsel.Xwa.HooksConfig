@@ -172,6 +172,15 @@ references:
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.New(String)
   nameWithType: XwaIniFile.XwaIniFile(string)
   nameWithType.vb: XwaIniFile.New(String)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.#ctor(System.String,System.String,System.String)
+  name: XwaIniFile(string, string, string)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile__ctor_System_String_System_String_System_String_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.XwaIniFile(string, string, string)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.New(String, String, String)
+  nameWithType: XwaIniFile.XwaIniFile(string, string, string)
+  nameWithType.vb: XwaIniFile.New(String, String, String)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.#ctor*
   name: XwaIniFile
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile__ctor_
@@ -382,6 +391,19 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Sections
   nameWithType: XwaIniFile.Sections
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.TxtExtension
+  name: TxtExtension
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile_TxtExtension
+  commentId: P:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.TxtExtension
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.TxtExtension
+  nameWithType: XwaIniFile.TxtExtension
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.TxtExtension*
+  name: TxtExtension
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile_TxtExtension_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.TxtExtension
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.TxtExtension
+  nameWithType: XwaIniFile.TxtExtension
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniSection
   name: XwaIniSection
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniSection.html
