@@ -106,7 +106,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
                 if (line.StartsWith("[") && line.EndsWith("]"))
                 {
-                    section = line.Substring(1, line.Length - 2);
+                    section = line[1..^1];
                     readSection = this.CreateSectionIfNotExists(section);
                 }
                 else
@@ -135,7 +135,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
                     {
                         string line = fileLine.Trim();
 
-                        if (!IsComment(line) && line.IndexOf('=') != -1)
+                        if (!IsComment(line) && line.Contains('='))
                         {
                             section.Value.Settings.Add(fileLine);
                         }
@@ -356,9 +356,9 @@ namespace JeremyAnsel.Xwa.HooksConfig
             }
         }
 
-        private static IList<string> ReadFileLines(string path, string? section = null)
+        private static List<string> ReadFileLines(string path, string? section = null)
         {
-            section = section ?? string.Empty;
+            section ??= string.Empty;
 
             var values = new List<string>();
 
@@ -378,7 +378,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
                     if (line.StartsWith("[") && line.EndsWith("]"))
                     {
-                        string name = line.Substring(1, line.Length - 2);
+                        string name = line[1..^1];
 
                         if (string.Equals(name, section, StringComparison.OrdinalIgnoreCase))
                         {
