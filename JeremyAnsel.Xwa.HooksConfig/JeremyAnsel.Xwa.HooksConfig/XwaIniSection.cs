@@ -3,7 +3,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 {
     public sealed class XwaIniSection
     {
-        public string TxtKey { get; set; }
+        public string? TxtKey { get; set; }
 
         public ICollection<string> Lines { get; } = new List<string>();
 

@@ -6,12 +6,12 @@ namespace JeremyAnsel.Xwa.HooksConfig
     {
         private static readonly Encoding _encoding = Encoding.GetEncoding("iso-8859-1");
 
-        public XwaIniFile(string path)
+        public XwaIniFile(string? path)
             : this(path, ".ini", ".txt")
         {
         }
 
-        public XwaIniFile(string path, string extension, string txtExtension)
+        public XwaIniFile(string? path, string? extension, string? txtExtension)
         {
             if (string.IsNullOrEmpty(path))
             {
@@ -33,7 +33,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
                 path = Path.ChangeExtension(path, extension);
             }
 
-            if (txtExtension[0] != '.')
+            if (txtExtension![0] != '.')
             {
                 txtExtension = "." + txtExtension;
             }
@@ -96,7 +96,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
             using var reader = new StreamReader(path, _encoding);
 
-            string fileLine;
+            string? fileLine;
             string section = string.Empty;
             bool readSection = true;
 
@@ -119,7 +119,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
             }
         }
 
-        public void ParseSettings(string iniKey = null)
+        public void ParseSettings(string? iniKey = null)
         {
             foreach (var section in this.Sections)
             {
@@ -148,7 +148,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
             }
         }
 
-        public void Read(string iniKey, string txtKey = null, bool parseSettings = false)
+        public void Read(string? iniKey, string? txtKey = null, bool parseSettings = false)
         {
             if (string.IsNullOrEmpty(iniKey))
             {
@@ -177,7 +177,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
                 section.Lines.Add(fileLine);
             }
 
-            this.Sections[iniKey] = section;
+            this.Sections[iniKey!] = section;
 
             if (parseSettings)
             {
@@ -185,7 +185,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
             }
         }
 
-        public void Save(string basePath = null)
+        public void Save(string? basePath = null)
         {
             if (string.IsNullOrEmpty(basePath))
             {
@@ -193,7 +193,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
             }
 
             this.RemoveDuplicatedEmptyLines();
-            this.RemoveEmptyFiles(basePath);
+            this.RemoveEmptyFiles(basePath!);
 
             if (!this.HasLinesOrSettings)
             {
@@ -215,7 +215,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
             foreach (var section in this.Sections)
             {
-                string txtKey = section.Value.TxtKey;
+                string? txtKey = section.Value.TxtKey;
 
                 if (string.IsNullOrEmpty(txtKey))
                 {
@@ -227,17 +227,17 @@ namespace JeremyAnsel.Xwa.HooksConfig
                 WriteSection(writer, section.Value);
             }
 
-            this.BasePath = basePath;
+            this.BasePath = basePath!;
         }
 
-        public void ClearSectionLines(string iniKey, bool createSection = false)
+        public void ClearSectionLines(string? iniKey, bool createSection = false)
         {
             if (iniKey == null)
             {
                 throw new ArgumentNullException(nameof(iniKey));
             }
 
-            if (this.Sections.TryGetValue(iniKey, out XwaIniSection section))
+            if (this.Sections.TryGetValue(iniKey, out XwaIniSection? section))
             {
                 section.Lines.Clear();
             }
@@ -247,7 +247,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
             }
         }
 
-        public ICollection<string> RetrieveLinesList(string iniKey)
+        public ICollection<string> RetrieveLinesList(string? iniKey)
         {
             if (iniKey == null)
             {
@@ -320,7 +320,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
                 foreach (var section in this.Sections)
                 {
-                    string txtKey = section.Value.TxtKey;
+                    string? txtKey = section.Value.TxtKey;
 
                     if (string.IsNullOrEmpty(txtKey))
                     {
@@ -356,7 +356,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
             }
         }
 
-        private static IList<string> ReadFileLines(string path, string section = null)
+        private static IList<string> ReadFileLines(string path, string? section = null)
         {
             section = section ?? string.Empty;
 
@@ -369,7 +369,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
             using (var reader = new StreamReader(path, _encoding))
             {
-                string fileLine;
+                string? fileLine;
                 bool readSection = string.IsNullOrEmpty(section);
 
                 while ((fileLine = reader.ReadLine()) != null)

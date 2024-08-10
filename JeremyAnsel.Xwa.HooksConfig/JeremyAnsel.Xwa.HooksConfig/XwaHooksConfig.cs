@@ -91,7 +91,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
                 return 0;
             }
 
-            int value = (int)Int32Converter.ConvertFromInvariantString(sb.ToString());
+            int value = (int)Int32Converter.ConvertFromInvariantString(sb.ToString())!;
 
             if (isNegative)
             {
@@ -106,7 +106,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
             return Path.ChangeExtension(str, null);
         }
 
-        public static IList<string> GetFileLines(string path, string section = null)
+        public static IList<string> GetFileLines(string path, string? section = null)
         {
             section ??= string.Empty;
 
@@ -119,7 +119,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
             using (var reader = new StreamReader(path, _encoding))
             {
-                string line;
+                string? line;
                 bool readSection = string.IsNullOrEmpty(section);
 
                 while ((line = reader.ReadLine()) != null)
