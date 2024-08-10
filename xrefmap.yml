@@ -46,13 +46,13 @@ references:
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt
   nameWithType: XwaHooksConfig.GetFileKeyValueInt
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(System.String,System.String)
-  name: GetFileLines(string, string)
+  name: GetFileLines(string, string?)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileLines_System_String_System_String_
   commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(System.String,System.String)
   name.vb: GetFileLines(String, String)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(string, string)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(string, string?)
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines(String, String)
-  nameWithType: XwaHooksConfig.GetFileLines(string, string)
+  nameWithType: XwaHooksConfig.GetFileLines(string, string?)
   nameWithType.vb: XwaHooksConfig.GetFileLines(String, String)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileLines*
   name: GetFileLines
@@ -164,22 +164,22 @@ references:
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile
   nameWithType: XwaIniFile
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.#ctor(System.String)
-  name: XwaIniFile(string)
+  name: XwaIniFile(string?)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile__ctor_System_String_
   commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.#ctor(System.String)
   name.vb: New(String)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.XwaIniFile(string)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.XwaIniFile(string?)
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.New(String)
-  nameWithType: XwaIniFile.XwaIniFile(string)
+  nameWithType: XwaIniFile.XwaIniFile(string?)
   nameWithType.vb: XwaIniFile.New(String)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.#ctor(System.String,System.String,System.String)
-  name: XwaIniFile(string, string, string)
+  name: XwaIniFile(string?, string?, string?)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile__ctor_System_String_System_String_System_String_
   commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.#ctor(System.String,System.String,System.String)
   name.vb: New(String, String, String)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.XwaIniFile(string, string, string)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.XwaIniFile(string?, string?, string?)
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.New(String, String, String)
-  nameWithType: XwaIniFile.XwaIniFile(string, string, string)
+  nameWithType: XwaIniFile.XwaIniFile(string?, string?, string?)
   nameWithType.vb: XwaIniFile.New(String, String, String)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.#ctor*
   name: XwaIniFile
@@ -205,13 +205,13 @@ references:
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.BasePath
   nameWithType: XwaIniFile.BasePath
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ClearSectionLines(System.String,System.Boolean)
-  name: ClearSectionLines(string, bool)
+  name: ClearSectionLines(string?, bool)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile_ClearSectionLines_System_String_System_Boolean_
   commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ClearSectionLines(System.String,System.Boolean)
   name.vb: ClearSectionLines(String, Boolean)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ClearSectionLines(string, bool)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ClearSectionLines(string?, bool)
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ClearSectionLines(String, Boolean)
-  nameWithType: XwaIniFile.ClearSectionLines(string, bool)
+  nameWithType: XwaIniFile.ClearSectionLines(string?, bool)
   nameWithType.vb: XwaIniFile.ClearSectionLines(String, Boolean)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ClearSectionLines*
   name: ClearSectionLines
@@ -315,13 +315,13 @@ references:
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ParseIni
   nameWithType: XwaIniFile.ParseIni
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ParseSettings(System.String)
-  name: ParseSettings(string)
+  name: ParseSettings(string?)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile_ParseSettings_System_String_
   commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ParseSettings(System.String)
   name.vb: ParseSettings(String)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ParseSettings(string)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ParseSettings(string?)
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ParseSettings(String)
-  nameWithType: XwaIniFile.ParseSettings(string)
+  nameWithType: XwaIniFile.ParseSettings(string?)
   nameWithType.vb: XwaIniFile.ParseSettings(String)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ParseSettings*
   name: ParseSettings
@@ -331,13 +331,13 @@ references:
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.ParseSettings
   nameWithType: XwaIniFile.ParseSettings
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Read(System.String,System.String,System.Boolean)
-  name: Read(string, string, bool)
+  name: Read(string?, string?, bool)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile_Read_System_String_System_String_System_Boolean_
   commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Read(System.String,System.String,System.Boolean)
   name.vb: Read(String, String, Boolean)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Read(string, string, bool)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Read(string?, string?, bool)
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Read(String, String, Boolean)
-  nameWithType: XwaIniFile.Read(string, string, bool)
+  nameWithType: XwaIniFile.Read(string?, string?, bool)
   nameWithType.vb: XwaIniFile.Read(String, String, Boolean)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Read*
   name: Read
@@ -347,13 +347,13 @@ references:
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Read
   nameWithType: XwaIniFile.Read
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.RetrieveLinesList(System.String)
-  name: RetrieveLinesList(string)
+  name: RetrieveLinesList(string?)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile_RetrieveLinesList_System_String_
   commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.RetrieveLinesList(System.String)
   name.vb: RetrieveLinesList(String)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.RetrieveLinesList(string)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.RetrieveLinesList(string?)
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.RetrieveLinesList(String)
-  nameWithType: XwaIniFile.RetrieveLinesList(string)
+  nameWithType: XwaIniFile.RetrieveLinesList(string?)
   nameWithType.vb: XwaIniFile.RetrieveLinesList(String)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.RetrieveLinesList*
   name: RetrieveLinesList
@@ -363,13 +363,13 @@ references:
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.RetrieveLinesList
   nameWithType: XwaIniFile.RetrieveLinesList
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Save(System.String)
-  name: Save(string)
+  name: Save(string?)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaIniFile.html#JeremyAnsel_Xwa_HooksConfig_XwaIniFile_Save_System_String_
   commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Save(System.String)
   name.vb: Save(String)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Save(string)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Save(string?)
   fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Save(String)
-  nameWithType: XwaIniFile.Save(string)
+  nameWithType: XwaIniFile.Save(string?)
   nameWithType.vb: XwaIniFile.Save(String)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaIniFile.Save*
   name: Save
