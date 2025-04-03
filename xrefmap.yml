@@ -125,6 +125,22 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetStringWithoutExtension
   nameWithType: XwaHooksConfig.GetStringWithoutExtension
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.IsInt32(System.String)
+  name: IsInt32(string)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_IsInt32_System_String_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.IsInt32(System.String)
+  name.vb: IsInt32(String)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.IsInt32(string)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.IsInt32(String)
+  nameWithType: XwaHooksConfig.IsInt32(string)
+  nameWithType.vb: XwaHooksConfig.IsInt32(String)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.IsInt32*
+  name: IsInt32
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_IsInt32_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.IsInt32
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.IsInt32
+  nameWithType: XwaHooksConfig.IsInt32
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.ToInt32(System.String)
   name: ToInt32(string)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_ToInt32_System_String_
