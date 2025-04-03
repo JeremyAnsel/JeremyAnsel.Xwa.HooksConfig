@@ -9,6 +9,88 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
         private static readonly TypeConverter Int32Converter = TypeDescriptor.GetConverter(typeof(int));
 
+        public static bool IsInt32(string text)
+        {
+            int length = text.Length;
+            int index = 0;
+
+            while (index < length && char.IsWhiteSpace(text, index))
+            {
+                index++;
+            }
+
+            if (index == length)
+            {
+                return false;
+            }
+
+            if (text[index] == '+')
+            {
+                index++;
+            }
+            else if (text[index] == '-')
+            {
+                index++;
+            }
+
+            while (index < length && char.IsWhiteSpace(text, index))
+            {
+                index++;
+            }
+
+            if (index == length)
+            {
+                return false;
+            }
+
+            bool isHex = false;
+
+            if (index + 2 <= length)
+            {
+                if (text[index] == '0')
+                {
+                    if (text[index + 1] == 'x' || text[index + 1] == 'X')
+                    {
+                        isHex = true;
+                        index += 2;
+                    }
+                }
+            }
+
+            int sbLength = 0;
+
+            while (index < length)
+            {
+                char c = text[index];
+
+                bool isDigit;
+
+                if (isHex)
+                {
+                    isDigit = (c >= '0' && c <= '9') || (c >= 'a' && c <= 'f') || (c >= 'A' && c <= 'F');
+                }
+                else
+                {
+                    isDigit = c >= '0' && c <= '9';
+                }
+
+                if (!isDigit)
+                {
+                    break;
+                }
+
+                sbLength++;
+                index++;
+            }
+
+            if (sbLength == 0)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
         public static int ToInt32(string text)
         {
             var sb = new StringBuilder(text.Length);
