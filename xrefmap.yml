@@ -13,15 +13,15 @@ references:
   commentId: T:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig
   nameWithType: XwaHooksConfig
-- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList{System.String},System.String)
-  name: GetFileKeyValue(IList<string>, string)
-  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValue_System_Collections_Generic_IList_System_String__System_String_
-  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList{System.String},System.String)
-  name.vb: GetFileKeyValue(IList(Of String), String)
-  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList<string>, string)
-  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList(Of String), String)
-  nameWithType: XwaHooksConfig.GetFileKeyValue(IList<string>, string)
-  nameWithType.vb: XwaHooksConfig.GetFileKeyValue(IList(Of String), String)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList{System.String},System.String,System.String)
+  name: GetFileKeyValue(IList<string>, string, string)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValue_System_Collections_Generic_IList_System_String__System_String_System_String_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList{System.String},System.String,System.String)
+  name.vb: GetFileKeyValue(IList(Of String), String, String)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList<string>, string, string)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue(System.Collections.Generic.IList(Of String), String, String)
+  nameWithType: XwaHooksConfig.GetFileKeyValue(IList<string>, string, string)
+  nameWithType.vb: XwaHooksConfig.GetFileKeyValue(IList(Of String), String, String)
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue*
   name: GetFileKeyValue
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValue_
@@ -29,6 +29,22 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValue
   nameWithType: XwaHooksConfig.GetFileKeyValue
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueFloat(System.Collections.Generic.IList{System.String},System.String,System.Single)
+  name: GetFileKeyValueFloat(IList<string>, string, float)
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValueFloat_System_Collections_Generic_IList_System_String__System_String_System_Single_
+  commentId: M:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueFloat(System.Collections.Generic.IList{System.String},System.String,System.Single)
+  name.vb: GetFileKeyValueFloat(IList(Of String), String, Single)
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueFloat(System.Collections.Generic.IList<string>, string, float)
+  fullName.vb: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueFloat(System.Collections.Generic.IList(Of String), String, Single)
+  nameWithType: XwaHooksConfig.GetFileKeyValueFloat(IList<string>, string, float)
+  nameWithType.vb: XwaHooksConfig.GetFileKeyValueFloat(IList(Of String), String, Single)
+- uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueFloat*
+  name: GetFileKeyValueFloat
+  href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValueFloat_
+  commentId: Overload:JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueFloat
+  isSpec: "True"
+  fullName: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueFloat
+  nameWithType: XwaHooksConfig.GetFileKeyValueFloat
 - uid: JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.GetFileKeyValueInt(System.Collections.Generic.IList{System.String},System.String,System.Int32)
   name: GetFileKeyValueInt(IList<string>, string, int)
   href: api/JeremyAnsel.Xwa.HooksConfig.XwaHooksConfig.html#JeremyAnsel_Xwa_HooksConfig_XwaHooksConfig_GetFileKeyValueInt_System_Collections_Generic_IList_System_String__System_String_System_Int32_
