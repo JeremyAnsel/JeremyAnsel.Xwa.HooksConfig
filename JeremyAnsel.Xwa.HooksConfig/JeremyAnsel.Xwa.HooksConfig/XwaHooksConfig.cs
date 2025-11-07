@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Globalization;
 using System.Text;
 
 namespace JeremyAnsel.Xwa.HooksConfig
@@ -323,7 +324,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
             foreach (string line in lines)
             {
-                int value = int.Parse(line.Trim());
+                int value = int.Parse(line.Trim(), NumberStyles.Integer, NumberFormatInfo.InvariantInfo);
                 values.Add(value);
             }
 
@@ -336,7 +337,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
 
             foreach (string line in lines)
             {
-                ushort value = ushort.Parse(line.Trim());
+                ushort value = ushort.Parse(line.Trim(), NumberStyles.Integer, NumberFormatInfo.InvariantInfo);
                 values.Add(value);
             }
 
