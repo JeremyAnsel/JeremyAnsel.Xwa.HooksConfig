@@ -245,7 +245,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
             return values;
         }
 
-        public static string GetFileKeyValue(IList<string> lines, string key)
+        public static string GetFileKeyValue(IList<string> lines, string key, string defaultValue = "")
         {
             foreach (string line in lines)
             {
@@ -270,7 +270,7 @@ namespace JeremyAnsel.Xwa.HooksConfig
                 }
             }
 
-            return string.Empty;
+            return defaultValue;
         }
 
         public static int GetFileKeyValueInt(IList<string> lines, string key, int defaultValue = 0)
