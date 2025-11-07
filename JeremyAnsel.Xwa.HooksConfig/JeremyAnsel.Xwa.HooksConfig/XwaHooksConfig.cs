@@ -285,6 +285,23 @@ namespace JeremyAnsel.Xwa.HooksConfig
             return ToInt32(value);
         }
 
+        public static float GetFileKeyValueFloat(IList<string> lines, string key, float defaultValue = 0.0f)
+        {
+            string value = GetFileKeyValue(lines, key);
+
+            if (value.Length == 0)
+            {
+                return defaultValue;
+            }
+
+            if (float.TryParse(value, NumberStyles.Float | NumberStyles.AllowThousands, NumberFormatInfo.InvariantInfo, out float result))
+            {
+                return result;
+            }
+
+            return defaultValue;
+        }
+
         public static IList<string> Tokennize(string str)
         {
             str = str.Trim();
